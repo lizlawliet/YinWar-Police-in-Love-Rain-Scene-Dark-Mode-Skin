@@ -1,0 +1,377 @@
+#header {
+  background-image: url("https://i.postimg.cc/8C6mN9YB/Rain-Scene-Police-In-Love.png") !important;
+  background-size: cover;
+  background-position: center;
+  height: 250px;
+  border-bottom: none;
+}
+
+ul.work.navigation.actions {
+  padding-top: 90px;
+  background: url("https://i.postimg.cc/HnrTJ0Cc/policeinlovetext.png") no-repeat center top;
+  background-size: 200px;
+}
+
+#footer {
+  background-color: #191a1d;
+  background-image: url("https://i.postimg.cc/Qxs3ZrFV/pilfootermobile.png") !important;
+  padding: 10px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-top: none !important;
+}
+
+html,
+body {
+  overflow-x: hidden !important;
+}
+
+h2.heading,
+h2.heading+h3.heading:not(.landmark) {
+  display: inline-block;
+  width: 100%;
+  margin-top: 0;
+  text-align: center;
+}
+
+#header .heading a::before {
+  content: "AO3\00a0✿";
+}
+
+#header .menu {
+  width: 96%;
+  max-width: unset;
+  min-width: unset;
+  border-inline: none;
+  border: var(--border-width) solid var(--border1);
+  transform: unset;
+  margin: 0 2%;
+}
+
+#header .menu li {
+  text-align: center;
+}
+
+#login,
+#greeting {
+  order: 2;
+}
+
+#header nav:has(> .primary) {
+  min-width: 100%;
+  max-width: 100%;
+  border-top: var(--border-width) solid;
+}
+
+#header {
+  padding-bottom: 0 !important;
+  margin-bottom: 0 !important;
+}
+
+#header .primary {
+  position: absolute;
+  top: 189px;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  min-height: 55px;
+  border-bottom: none !important;
+}
+
+#header li.search {
+  position: absolute !important;
+  top: 30px !important;
+}
+
+#header,
+#header .primary,
+#header nav {
+  border: none !important;
+  box-shadow: none !important;
+}
+
+#header #search .text {
+  width: 35vw;
+  min-width: unset;
+  max-width: unset;
+  transition: width 0.15s;
+}
+
+#header #search .text:is(:focus,
+:active) {
+  width: 95vw;
+  max-width: unset;
+}
+
+#dashboard,
+#dashboard.own {
+  top: unset;
+  z-index: 2;
+  width: auto;
+  min-width: unset;
+  max-width: unset;
+  height: auto;
+  max-height: unset;
+  overflow: visible;
+  margin: 2% 2% 0 2%;
+  padding: 0;
+  border-bottom: var(--border-width) solid;
+  text-align: center;
+}
+
+#dashboard ul {
+  box-sizing: border-box;
+  width: 100%;
+  margin: 0;
+  padding: 0.25em 0;
+  text-align: center;
+}
+
+#dashboard a,
+#dashboard span {
+  display: inline-block;
+  margin-block: var(--border-width);
+}
+
+.filtered .index,
+form.filters,
+form dd,
+form dt,
+form .meta dd,
+form .meta dt,
+form.inbox {
+  float: none;
+  width: 100%;
+  min-width: 0;
+  max-width: 100%;
+}
+
+#footer {
+  padding-block: 5%;
+}
+
+#footer ul.navigation.actions {
+  flex-wrap: wrap;
+}
+
+#footer ul li.module {
+  flex-basis: 47.5%;
+}
+
+#footer ul li.module:nth-of-type(-n+2) {
+  margin-bottom: 5%;
+}
+
+ul.navigation.actions,
+p.navigation.actions {
+  float: none;
+  display: block;
+  text-align: center;
+}
+
+.module h3.landmark {
+  display: none;
+}
+
+.javascript .work.navigation .download .secondary {
+  flex-direction: column;
+}
+
+.icon {
+  width: 85px;
+  height: 85px;
+}
+
+.tagset .media .listbox {
+  width: 100%;
+  margin-right: 0;
+}
+
+.bookmark .short .header {
+  align-items: flex-start;
+}
+
+.home .header h2,
+.home .header ul.actions {
+  margin-left: 0;
+  border-bottom: 0;
+  text-align: center;
+}
+
+.home .header h2 {
+  order: 2;
+  margin-block: 0.429em;
+}
+
+.primary .icon {
+  order: 1;
+  position: unset;
+  margin: 0 auto;
+}
+
+.home .header ul.actions,
+.home .navigation.actions {
+  order: 3;
+}
+
+.home .header .userstuff {
+  order: 4;
+}
+
+.home .header .type {
+  order: 5;
+  width: 100%;
+  text-align: center;
+}
+
+.home .header dl.stats {
+  order: 6;
+}
+
+.javascript form.filters {
+  overflow-y: visible;
+  max-height: unset;
+  padding: 0 0.643em;
+}
+
+.region:has(ol.pagination.actions) form.filters {
+  background-color: var(--bg5);
+  border: var(--border-width) solid var(--border1);
+  box-shadow: var(--shadow-header);
+}
+
+.javascript {
+  background: var(--bg1);
+}
+
+.media-index .media .listbox {
+  width: 100%;
+}
+
+#greeting {
+  position: absolute !important;
+  top: 0 !important;
+  left: 0 !important;
+  right: 0 !important;
+  width: 100% !important;
+  display: flex !important;
+  justify-content: center !important;
+  overflow: hidden !important;
+  background: #191a1d !important;
+  border-bottom: 2px solid #191a1d !important;
+  z-index: 999 !important;
+}
+
+#dashboard,
+#dashboard ul,
+#dashboard li,
+#dashboard .secondary {
+  background-color: #191a1d !important;
+}
+
+body,
+#outer.wrapper,
+#inner.wrapper,
+#main {
+  background-color: #191a1d !important;
+}
+
+#outer,
+#inner,
+.wrapper {
+  max-width: 100% !important;
+  overflow-x: hidden !important;
+}
+
+#dashboard,
+#dashboard.own,
+#dashboard ul,
+#dashboard li,
+.region,
+.listbox {
+  left: auto !important;
+  right: auto !important;
+  transform: none !important;
+  width: 100% !important;
+  max-width: 100% !important;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+  box-sizing: border-box !important;
+}
+
+#main,
+#dashboard,
+#header,
+#outer,
+#inner,
+.wrapper {
+  display: block !important;
+}
+
+#main .primary,
+#main .secondary,
+#main .profile,
+#dashboard .secondary {
+  float: none !important;
+  display: block;
+  width: 100% !important;
+  max-width: 100% !important;
+}
+
+.icon,
+.primary .icon,
+.avatar {
+  float: none !important;
+  margin: 0 auto !important;
+  display: block !important;
+}
+
+#dashboard .secondary {
+  display: none;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #191a1d !important;
+  z-index: 9999;
+}
+
+#dashboard li:hover .secondary,
+#dashboard li:focus-within .secondary {
+  display: block;
+}
+
+#greeting .dropdown,
+#greeting .menu {
+  width: auto !important;
+  min-width: max-content !important;
+  white-space: nowrap !important;
+}
+
+.comment div.icon {
+  float: left !important;
+  margin-right: 10px !important;
+  margin-top: -30px !important;
+}
+
+li.chapter .secondary,
+.work.navigation .secondary,
+.download .secondary {
+  display: none !important;
+  position: absolute !important;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #191a1d !important;
+  z-index: 9999 !important;
+}
+
+li.chapter:hover .secondary,
+li.chapter:focus-within .secondary {
+  display: block !important;
+}
+
+.download:hover .secondary,
+.download:focus-within .secondary {
+  display: block !important;
+}
