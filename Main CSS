@@ -1,0 +1,565 @@
+li,
+input {
+  color: #ffd166 !important;
+}
+
+body {
+  background-color: #191a1d;
+  color: #ffd166;
+}
+
+#header .primary {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+#greeting {
+  position: absolute;
+  top: 189px;
+  right: -5px;
+  left: auto;
+  width: auto;
+  display: flex;
+  justify-content: flex-end;
+}
+
+a {
+  color: white;
+}
+
+a:hover {
+  color: white !important;
+}
+
+#header {
+  background-image: url("https://i.postimg.cc/1XmNbjwQ/ywheaderpilblack.png");
+  border-bottom: none;
+  background-repeat: no-repeat !important;
+  background-size: cover;
+  background-position: center !important;
+  height: 250px;
+}
+
+#header,
+#header .primary,
+#header nav {
+  border: none !important;
+  box-shadow: none !important;
+}
+
+#header h1.heading {
+  display: none;
+}
+
+#header .navigation {
+  background: #191a1d !important;
+}
+
+#header .navigation li a {
+  color: #ffe08a !important;
+}
+
+#main .navigation {
+  background-color: #191a1d;
+}
+
+#main .navigation a {
+  color: #ffe08a;
+}
+
+#main {
+  background-color: #191a1d;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.blurb,
+.bookmark,
+.collection {
+  background-color: transparent !important;
+  border-radius: 8px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+li.blurb {
+  border: 2px solid rgba(255, 204, 102, 1) !important;
+  border-radius: 15px;
+}
+
+h1 {
+  color: #ffd166 !important;
+  font-family: Georgia;
+}
+
+#dashboard .heading,
+#main .heading,
+h2.heading,
+h3.heading {
+  color: #ffd166 !important;
+  font-family: "Georgia", "Helvetica", "Arial";
+}
+
+button,
+.button {
+  background-color: #fff9e6;
+  color: black;
+  border-radius: 5px;
+  border: none;
+  padding: 5px 10px;
+}
+
+button:hover,
+.button:hover {
+  background-color: #fff9e6;
+}
+
+a.tag {
+  color: #ffe08a;
+  background: none !important;
+  border: none !important;
+  border-radius: 0 !important;
+  padding: 0 !important;
+  text-decoration: underline dotted !important;
+}
+
+#footer {
+  background-color: transparent !important;
+  background-image: url("https://i.postimg.cc/9QmCZj2s/footerpcpil.png");
+  padding: 10px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-top: 2px solid #191a1d;
+}
+
+#footer a {
+  color: #ffe08a;
+}
+
+#footer .navigation h4,
+#footer .navigation .heading {
+  color: #ffd166 !important;
+  background-color: none !important;
+  background: none !important;
+}
+
+#footer ul.navigation.actions li.module.group {
+  background-color: none !important;
+  background: none !important;
+}
+
+#footer .menu {
+  color: #ffe08a;
+}
+
+#header .menu,
+#header .navigation,
+#header .dropdown,
+#header .primary {
+  background: #191a1d !important;
+}
+
+#header .navigation li,
+#header .primary li,
+#header .menu li {
+  background: #191a1d !important;
+}
+
+.kudos a:hover {
+  color: white !important;
+}
+
+.kudos a {
+  color: #ffe08a !important;
+}
+
+#greeting p.icon {
+  display: none !important;
+}
+
+#footer li a:hover {
+  color: white !important;
+}
+
+button,
+input[type="submit"],
+input[type="button"],
+input[type="reset"] {
+  color: black !important;
+}
+
+button.expander {
+  color: #ffd166 !important;
+}
+
+button:hover,
+input[type="submit"]:hover,
+input[type="button"]:hover,
+input[type="reset"]:hover,
+button[type="submit"]:hover {
+  color: white !important;
+}
+
+ul.primary.navigation.actions input[type="submit"] {
+  background: #191a1d !important;
+  background-color: #191a1d !important;
+  color: #ffe08a !important;
+  border: none !important;
+}
+
+ul.primary.navigation.actions input[type="submit"]:hover {
+  background: #434650 !important;
+  background-color: #434650 !important;
+  color: #ffe08a !important;
+  border: none !important;
+}
+
+.blurb h4 a,
+.work .heading a,
+li.work a {
+  color: #ffe08a !important;
+  text-decoration: none !important;
+}
+
+.blurb h4 a:hover,
+.work .heading a:hover,
+li.work a:hover {
+  color: white !important;
+}
+
+.listbox.group {
+  background-color: #191a1d !important;
+  border: 2px solid rgba(255, 204, 102, 1) !important;
+  border-radius: 15px;
+  padding: 10px;
+  color: white !important;
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+  background: white;
+}
+
+.listbox .index,
+.listbox .meta,
+.listbox .header,
+.listbox dl,
+.listbox dd,
+.listbox dt,
+.listbox li {
+  background-color: #191a1d !important;
+}
+
+#dashboard,
+#dashboard ul,
+#dashboard li,
+#dashboard .secondary {
+  border-color: #191a1d !important;
+}
+
+#greeting {
+  overflow: visible !important;
+  position: absolute;
+  z-index: 9999 !important;
+}
+
+#greeting .dropdown {
+  position: relative !important;
+  z-index: 10000 !important;
+}
+
+#greeting .dropdown .menu {
+  position: absolute !important;
+  z-index: 10001 !important;
+  display: none !important;
+}
+
+#greeting .dropdown:hover .menu,
+#greeting .dropdown:focus-within .menu {
+  display: block !important;
+}
+
+#feedback form {
+  color: #ffe08a;
+}
+
+#main .actions a,
+#main .actions input,
+input[type="submit"],
+input[type="button"],
+input[type="reset"],
+form .submit input,
+ul.work.navigation.actions li button,
+ul.work.navigation.actions li a,
+fieldset.actions input,
+fieldset.actions button,
+button[type="submit"] {
+  background: rgba(255, 204, 102, 1) !important;
+  background-color: rgba(255, 204, 102, 1) !important;
+  color: black !important;
+  border: 1px solid rgba(255, 204, 102, 1) !important;
+  border-radius: 8px !important;
+  padding: 6px 10px !important;
+  text-decoration: none !important;
+  box-shadow: none !important;
+}
+
+ul.user.navigation.actions li a,
+ul.primary.navigation.actions li a {
+  background: #191a1d !important;
+  background-color: #191a1d !important;
+  color: #ffe08a !important;
+  border: 1px solid #191a1d !important;
+  border-radius: 8px !important;
+  padding: 6px 10px !important;
+  text-decoration: none !important;
+  box-shadow: none !important;
+}
+
+#header ul.user.navigation.actions li a:hover,
+#header ul.primary.navigation.actions li a:hover {
+  background: #434650 !important;
+  background-color: #434650 !important;
+}
+
+#main a {
+  background: none !important;
+  background-color: none !important;
+  color: #ffe08a !important;
+  border: none !important;
+}
+
+#main a:hover {
+  color: white !important;
+}
+
+#footer button[type="submit"] {
+  background-color: none !important;
+  background: none !important;
+  border: none !important;
+  text-decoration: underline !important;
+}
+
+input[type="submit"]:hover,
+input[type="button"]:hover,
+input[type="reset"]:hover,
+form .submit input:hover,
+ul.work.navigation.actions li a:hover,
+ul.work.navigation.actions li button:hover,
+fieldset.actions input:hover,
+fieldset.actions button:hover,
+#main .actions a:hover,
+#main .actions input:hover,
+button[type="submit"]:hover {
+  color: white !important;
+  background: rgba(255, 204, 102, 1) !important;
+  border-color: rgba(255, 204, 102, 1) !important;
+}
+
+#outer.wrapper,
+#inner.wrapper,
+#main {
+  background-color: transparent !important;
+}
+
+.comment,
+li.comment,
+.comment div,
+.comment .userstuff,
+.comment .body,
+.blurb,
+li.blurb,
+.collection,
+.listbox,
+.listbox .meta,
+.listbox dd,
+.listbox dt,
+dl.meta,
+dl.index,
+fieldset,
+form,
+.notice,
+.flash,
+.system {
+  background-color: transparent !important;
+  background: transparent !important;
+  border-color: rgba(255, 204, 102, 0.4) !important;
+  box-shadow: none !important;
+}
+
+.listbox .index {
+  box-shadow: none !important;
+  border-radius: 12px !important;
+  overflow: auto !important;
+}
+
+button:hover {
+  background-color: white;
+}
+
+#header .navigation li a:hover,
+#header .primary li a:hover,
+#header .menu li a:hover {
+  background: #ffffff !important;
+}
+
+#comments .comment dl.meta,
+#comments .comment .meta,
+#comments .comment .header,
+.comment .header,
+.comment .userstuff,
+.comment ol.thread,
+#comments,
+#comments ol.thread,
+#comments li.comment,
+#comments li.comment .header,
+#comments li.comment .byline,
+#comments li.comment .meta,
+#comments li.comment .userstuff,
+#comments_placeholder {
+  background-color: transparent !important;
+  background: transparent !important;
+  box-shadow: none !important;
+  border-color: rgba(255, 204, 102, 0.4) !important;
+}
+
+#comments h3,
+#comments h3.heading {
+  background: #fff9e6 !important;
+  box-shadow: none !important;
+  border: none !important;
+}
+
+#comments dl.meta,
+#comments li.comment dl.meta,
+li.comment dl.meta {
+  background: #fff9e6 !important;
+  border-bottom: 1px solid rgba(255, 204, 102, 0.5) !important;
+  border-radius: 10px 10px 0 0;
+}
+
+#comments li.comment::before,
+#comments li.comment::after {
+  background: transparent !important;
+  content: none !important;
+}
+
+li.comment div.header {
+  background: #fff9e6 !important;
+  border: 1px solid #fff9e6 !important;
+}
+
+.comment h4,
+#comments_placeholder h4.heading {
+  color: #ffd166 !important;
+  background: #202124 !important;
+  background-color: #202124 !important;
+}
+
+.comment .byline a,
+.comment .datetime {
+  color: #ffe08a;
+  background: none !important;
+  background-color: none !important;
+}
+
+h4.heading {
+  background: none !important;
+  background-color: none !important;
+}
+
+.comment .byline a:hover,
+.comment .byline:hover {
+  color: white !important;
+}
+
+dl.subscription.index.group,
+dl.subscription.index.group dd,
+dl.subscription.index.group dd .edit_subscription {
+  background: none !important;
+  background-color: none !important;
+}
+
+#header ul.navigation.actions a:hover,
+ul.navigation.actions a:active {
+  background-color: #191a1d !important;
+  background: #191a1d !important;
+}
+
+#header ul.navigation.actions {
+  background-color: #191a1d !important;
+  background: #191a1d !important;
+}
+
+#header ul.chapter.actions a,
+ul.chapter.actions input[type="submit"] {
+  top: 40px !important;
+}
+
+.chapter.draft {
+  background-color: #202124 !important;
+  background: #202124 !important;
+}
+
+div.user.home div.header.module,
+div.user.home ul.tags.commas li,
+div.user.home dl.stats,
+div.user.home dl.stats dd,
+div.user.home dl.stats dt,
+div.user.home ul.series li,
+ul.actions li {
+  background: none !important;
+  background-color: none !important;
+}
+
+div.user.home ul.tags.commas li {
+  text-decoration: underline dotted !important;
+}
+
+div.user.home div.header.module div.own.user.module.group {
+  border: 1px solid #191a1d !important;
+}
+
+#main .listbox.group ol.index.group li a:hover {
+  color: white !important;
+}
+
+#dashboard ul.navigation.actions li a:hover {
+  background: #434650 !important;
+  background-color: #434650 !important;
+}
+
+#dashboard ul.navigation.actions li,
+#dashboard ul.navigation.actions li a {
+  color: #ffe08a !important;
+}
+
+#main ul.work.index.group,
+#main p.caution.notice {
+  color: #ffe08a !important;
+}
+
+#main .narrow-hidden.filters dd {
+  color: #ffd166 !important;
+}
+
+.userstuff p.font-claude-response-body {
+  background: #fff0b3 !important;
+  color: #000000 !important;
+  display: block !important;
+}
+
+body:has(.userstuff p.font-claude-response-body) #workskin,
+body:has(.userstuff p.font-claude-response-body) #workskin * {
+  color: #ff0000 !important;
+}
+
+body:has(.userstuff p.font-claude-response-body) .preface .title {
+  color: #ff0000 !important;
+}
